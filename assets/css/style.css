@@ -587,8 +587,8 @@ section {
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
-  -webkit-filter: whitescale(100);
-  filter: whitescale(100);
+  -webkit-filter: grayscale(100);
+  filter: grayscale(100);
 }
 
 .cliens img:hover {
