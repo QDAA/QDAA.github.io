@@ -589,6 +589,7 @@ section {
   padding: 15px 0;
   -webkit-filter: grayscale(100);
   filter: grayscale(100);
+  filter:brightness(150%);
 }
 
 .cliens img:hover {
