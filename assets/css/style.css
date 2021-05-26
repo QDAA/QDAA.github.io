@@ -591,10 +591,10 @@ section {
   filter: none;
 }
 
-.cliens img:hover ;
-  transform: scale(1.1);
+.cliens img:hover {
   -webkit-filter: grayscale(100);
   filter: grayscale(100);
+  transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
