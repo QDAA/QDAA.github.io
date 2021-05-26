@@ -579,6 +579,7 @@ section {
 .cliens {
   padding: 12px 0;
   text-align: center;
+  background: #79a6d2;
 }
 
 .cliens img {
@@ -586,8 +587,8 @@ section {
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
-  -webkit-filter: grayscale(100);
-  filter: grayscale(100);
+  -webkit-filter: whitescale(100);
+  filter: whitescale(100);
 }
 
 .cliens img:hover {
