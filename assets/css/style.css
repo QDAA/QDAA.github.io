@@ -587,14 +587,14 @@ section {
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
-  -webkit-filter: grayscale(100);
-  filter: grayscale(100) brightness(150%);
-}
-
-.cliens img:hover {
   -webkit-filter: none;
   filter: none;
+}
+
+.cliens img:hover ;
   transform: scale(1.1);
+  -webkit-filter: grayscale(100);
+  filter: grayscale(100);
 }
 
 @media (max-width: 768px) {
